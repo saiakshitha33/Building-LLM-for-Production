@@ -46,7 +46,7 @@ Whether it's legal, medical, or policy documentation, RAGent leverages OCR, vect
 ├── requirements.txt       # Python dependencies
 └── .env                   # API keys and config variables
 
-**How to run**
+How to run
 
 # 1. Install dependencies
 pip install -r requirements.txt
