@@ -45,3 +45,15 @@ Whether it's legal, medical, or policy documentation, RAGent leverages OCR, vect
 ├── llm_utils.py           # Shared helper functions for LLMs
 ├── requirements.txt       # Python dependencies
 └── .env                   # API keys and config variables
+
+**How to run**
+
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Add your keys to .env
+echo "OPENAI_API_KEY=sk-..." > .env
+
+# 3. Run the pipeline
+python main.py
+
